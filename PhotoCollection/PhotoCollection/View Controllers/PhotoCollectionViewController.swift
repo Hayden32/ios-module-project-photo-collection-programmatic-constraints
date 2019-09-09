@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PhotoCollectionViewController: UICollectionViewController {
+class PhotoCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     
     let photoController = PhotoController()
     let themeHelper = ThemeHelper()
